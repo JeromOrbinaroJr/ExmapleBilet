@@ -28,6 +28,7 @@ public:
     // Methods
     void addAddress(const Address& address);
 
+    //Friend Class
     friend class ResidentManager;
 
 private:
